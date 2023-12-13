@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">MyInfo.com</a>
+        <button class="navbar-toggler navbar-dark" type="button" data- toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header header container-fluid">
+        <div class="overlay">
+            <div class="description">
+                <h1>Welcome до мого портфоліо!!!</h1>
+                <p>Тут зібрана деяка інформація про мене та мої проекти
+                </p>
+                <button class="btn btn-outline-secondary btn-lg">Докладніше</button>
+            </div>
+        </div>
+    </header>
+    <div class="container features">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">NetherGym</h3>
+                <img src="./imgs/nethergym.png" class="img-fluid">
+                <p>Мій перший веб проект, який був розроблений на першому семестрі другого курсу! </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">NoisyCat</h3>
+                <img src="./imgs/noisycat.png" class="img-fluid">
+                <p>Мій другий веб проект, який був розроблений на другому семестрі другого курсу! </p>
+            </div>
+            <div>
+                <h3 class="feature-title">Напишіть нам!</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" name="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" name="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Додаткова інформація</h6>
+                    <p>Вчусь в Чернівецькому національному університеті на факультеті математики та інформатики</p>
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h6 class="text-uppercase font-weight-bold">Контактні дані</h6>
+                    <p>419 Burnley Circle Schaumburg IL 60193  <br />kuryliak.nazarii@chnu.edu.ua
+                        <br />+380-99-177-6801
+                        <br />+1-847-804-7721
+                    </p>
+                </div>
+            </div>
+    </footer>
+
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <script src="./jquery-3.7.1.min.js"></script>
+        <script src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+        <script src="./main.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
